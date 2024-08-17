@@ -4,7 +4,7 @@ import MainNav from './main-nav';
 
 function Header() {
   return (
-    <div className="border-b-2 border-b-orange-500 py-6">
+    <nav className="border-b-2 border-b-orange-500 py-6">
       <div className="container mx-auto flex justify-between items-center">
         <Link
           to="/"
@@ -21,7 +21,7 @@ function Header() {
           <MainNav />
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 
