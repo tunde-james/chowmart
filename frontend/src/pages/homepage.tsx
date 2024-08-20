@@ -20,7 +20,7 @@ function Homepage() {
 
         <div className="flex flex-col items-center justify-center gap-4 text-center">
           <span className="font-bold text-3xl tracking-tighter">
-            Order takeaway even faster
+            Order takeaway even faster!
           </span>
 
           <span>

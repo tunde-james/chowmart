@@ -15,7 +15,7 @@ function Auth0ProviderWithNavigate({ children }: Props) {
   if (!domain || !clientId || !redirectUri || !audience) {
     throw new Error('Unable to initialise auth');
   }
-
+ 
   const onRedirectCallback = () => {
     navigate('/auth-callback');
   };
